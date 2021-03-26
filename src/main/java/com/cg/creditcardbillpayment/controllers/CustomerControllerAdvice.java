@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.cg.creditcardbillpayment.exceptions.CustomerServiceException;
-
+//its a controller
 @RestControllerAdvice
 public class CustomerControllerAdvice {
 	@ExceptionHandler(CustomerServiceException.class)
